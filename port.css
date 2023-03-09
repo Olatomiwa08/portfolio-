@@ -1,0 +1,263 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   display: inline;
+   position: absolute;
+   align-items: center;
+   justify-content: center;
+
+}
+nav{
+    position: absolute;
+    display: inline;
+    background: orange;
+    height: 90px;
+    width: 100%;
+}
+.input{
+    position: absolute;
+    display: flex;
+    left: 50px;
+    top: 25px;
+    background: white;
+}
+input{
+    height: 30px;
+    width: 180px;
+    border: none;outline: none;
+    font-size: 20px;
+}
+button{
+    border: none;
+    top: 5px;
+    background: none;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(95, 95, 94);
+}
+::placeholder{
+    opacity: 0.9;
+}
+label{
+    display:block;
+    position: absolute;
+    left: 90%;
+    top: 20px;
+    font-size: 40px;
+    color: black;
+}
+#menu-outline{
+    display: none;
+}
+.list{
+    display: none;
+}
+@media(min-width:1680px ){
+    #menu-outline{
+        display: block;
+    }
+    .list{
+        display: block;
+        position: relative;
+        background: red;
+        width: 100%;
+        height: 100px;
+
+    }
+    #menu-outline:checked ~ .list{
+        display: block;
+        left: 0;
+    }
+}
+.main{
+    scroll-snap-align:inherit;
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    top: 80px;
+    background: blue;
+    height: 1500px;
+    width: 100vw;
+}
+.head{
+    display: ;
+    g
+    height: 100%;
+    position: relative;
+    top: 90px;
+}
+h1{
+    display: block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    left: 20px;
+}
+.name{
+    display: block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+    top: 20px;
+    left: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    display: block;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    height:300px;
+    top: 20px;
+    color: white;
+    left: px;
+}
+.image{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    top: -70px;
+    left: 60px;
+    width: 350px;
+    border: 7px solid orange;
+    border-radius: 50%;
+    height: 350px;
+}
+img{
+    display: flex;
+    position: relative;
+    width: 80;
+    height:80%;
+    top: -30px;
+    left: 5px;
+    border-bottom-right-radius: 30px;
+}
+.span1, .span2{
+    display: inline-block;
+   background: white;
+   justify-content: center;
+   text-align: center;
+   padding-top: 45px;
+   position:relative ;
+   left: 90px;
+   width: 120px;
+   margin: 10px;
+   height: 120px;
+   border-radius: 50%;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.span1{
+    color:blue;
+}
+.span2{
+    color:orange ;
+}
+.div1, .div2{
+    display: inline-block;
+   background: white;
+   text-align: center;
+   padding-top: 45px;
+   position:relative ;
+   left: 90px;
+   width: 120px;
+   margin: 10px;
+   height: 120px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 50%;
+   font-size: 20px;
+}
+.div1{
+    color:blue;
+}
+.div2{
+    color:orange ;
+}
+.second{
+    background: url(yellow-watercolor-paper_95678-446.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    justify-content:left;
+    align-items: center;
+    
+}
+.one, .two, .three{
+
+    position: relative;
+    background: rgb(255, 255, 255);
+    top:1 ;
+    margin: 10px;
+    left: 15%;
+    padding-top: 50px;
+    width: 370px;
+    border-radius: 20px;
+    height: 500px;
+}
+.second h1{
+    color: orange;
+    display: block;
+    position: relative;
+    justify-content: left;
+    text-align: left;
+    font-size: 50px;
+    bottom: 40px;
+}
+.second h2{
+    display: block;
+    position: relative;
+    justify-content: left;
+    text-align: left;
+    color: blue;
+    left: 20px;
+    top: 40px;
+}
+.second p{
+    display: block;
+    position: relative;
+    align-items: left;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    height:200px;
+    top: 70px;
+    color: black;
+    left: px;
+}
+.second a{
+    color: orange;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
